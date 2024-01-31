@@ -1,0 +1,4 @@
+cargo:rustc-link-search=C:\Users\Administrator\Desktop\rust\experiments\lcd-i2c\target\thumbv7em-none-eabihf\release\build\lcd-i2c-0efc2a37e6d75f2c\out
+cargo:rerun-if-changed=memory.x
+cargo:rustc-link-arg=--nmagic
+cargo:rustc-link-arg=-Tlink.x
